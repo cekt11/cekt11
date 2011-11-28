@@ -1,9 +1,10 @@
 package at.jku.ce;
 
 public class DomainObject {
- 
+
+	public String id; 
 	private String name;
-	public String uuid = UUID.randomUUID().toString()
+	private String id = UUID.randomUUID().toString()
 	
 	public DomainObject() {
 		super();
@@ -14,7 +15,7 @@ public class DomainObject {
 		this.id=id;
 	}
 	 
-	public String getUuid() {
+	public String getId() {
 		return id;
 	}
 

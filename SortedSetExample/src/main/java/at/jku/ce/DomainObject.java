@@ -5,7 +5,6 @@ public class DomainObject {
 	public DomainObject() {
 		super();
 	}
-	
 
 }
 
@@ -19,3 +18,4 @@ super();
  public String getId() {
 return id;
 }
+ private String name;

@@ -4,7 +4,7 @@ public class DomainObject {
 
 	public String id; 
 	private String name;
-	public String id = UUID.randomUUID().toString()
+	private String id = UUID.randomUUID().toString()
 	
 	public DomainObject() {
 		super();

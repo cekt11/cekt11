@@ -14,3 +14,6 @@ public DomainObject(String id)
 super();
  this.id = id; 
  }
+ 
+ 
+ private String name;
